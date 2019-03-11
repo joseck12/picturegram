@@ -1,0 +1,7 @@
+{%extends 'my-grams/base.html'%} {%load staticfiles%} {%load bootstrap3 %} {% block content %}
+<div class="row">
+    <div style="overflow:scroll; height:400px; text-align:center; background-image:url('http://pngimg.com/uploads/instagram/instagram_PNG5.png'); background-repeat: no-repeat;  background-size: cover;">
+        <h3>Find people to follow. <a href="{% url 'viewProfiles' %}">Click here</a></h3>
+    </div>
+</div>
+{% endblock%}
