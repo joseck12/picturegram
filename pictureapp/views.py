@@ -36,3 +36,14 @@ def search_result(request):
         message =f"{search_name}"
 
         return render(request,'my-grams/search_result.html',{"message":message,"found_users":found_users})
+        else:
+        message = "Please enter a valid username"
+    return render(request,'my-grams/search_result.html',{"message":message})
+
+@login_required(login_url='/accounts/login/')
+def single_user(request,id):
+    try:
+        user = Profile.objects.get(id=id)
+    except:
+        raise Http404()
+    return render(request,'my-grams/single.html',{"user":user})
