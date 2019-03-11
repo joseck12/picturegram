@@ -16,7 +16,7 @@ class ImageTestClass(TestCase):
         '''
         method that test is image objects are instanciated correctly
         '''
-        self.assertTrue(isinstance(self.image,Image))
+        self.assertTrue(isinstance(self.image,Image)) 
 
     def test_save_image(self):
         '''
@@ -73,7 +73,7 @@ class ProfileTestClass(TestCase):
         all_profiles = Profile.objects.all()
         self.assertTrue(len(all_profiles)>0)
 
-
+        
     def test_delete_profile(self):
         '''
         method that tests the delete_profile method
@@ -121,7 +121,7 @@ class CommentTestClass(TestCase):
         all_comments = Comment.objects.all()
         self.assertTrue(len(all_comments)>0)
 
-
+        
     def test_delete_comment(self):
         '''
         method that tests the delete_profile method
@@ -142,7 +142,7 @@ class LikesTestClass(TestCase):
         '''
         Method that runs at the beggining of each test
         '''
-        self.new_like = Like (likes_number=0)
+        self.new_like = Like (likes_number=0) 
 
     def test_instance(self):
         '''
@@ -169,3 +169,17 @@ class LikesTestClass(TestCase):
         self.new_like.like()
         like_status = self.new_like.likes_number
         self.assertTrue(like_status == 2)
+
+    
+    
+
+    
+
+
+
+
+
+
+   
+
+
