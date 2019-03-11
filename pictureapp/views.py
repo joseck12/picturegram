@@ -1,8 +1,12 @@
 from django.http  import Http404
 from django.shortcuts import render,redirect
 from . models import Image ,Profile, Like, Follow, Comment
-
 import datetime as dt
+from django.contrib.auth.decorators import login_required
+from django.conf import settings
+from . forms import ImageForm, CommentForm, ProfileUpdateForm,UpdateImageCaption
+import os
+from django.template.defaulttags import register
 
 # Create your views here.
 @login_required(login_url='/accounts/login/')
