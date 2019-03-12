@@ -1,10 +1,9 @@
-INSTAGRAM.
+# Instagram
 
-A clone of the website for the popular photo app Instagram.
-By Joseck Ogachi
+#### By Joseck Ogachi
 
 Description
-This application allows users to sign up then they can create a profile and upload images for other users to like and comment,and users can also follow each other to ensure that they get timely notifications.
+A clone of the website for the popular photo app Instagram. This application allows users to sign up then they can create a profile and upload images for other users to like and comment,and users can also follow each other to ensure that they get timely notifications.
 Setup/Installation Requirements
 installations required
 Install python version  3.6
@@ -63,4 +62,4 @@ There are no know bugs,incase of any reach me on the above contact details.
 License
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE Copyright (c) {2018} {By Joseck Ogachi}
 
-##live link to Heruko 
+##live link to Heruko
