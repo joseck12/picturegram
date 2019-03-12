@@ -18,7 +18,7 @@ In order to clone , follow the procedure below;
 - Type git clone, and then paste the URL you copied in the above step.
 - git clone https://github.com/joseck12/picturegram.git Press Enter.
 
-## creating a database
+## Creating a database
 
 - `psql`
 - `CREATE DATABASE picturegram`
@@ -33,7 +33,7 @@ In order to clone , follow the procedure below;
 ## Running the app
 - `python3.6 manage.py runserver`
 
-## testing
+## Testing
 - `python3.6 manage.py test picturegram`
 
 ## SPECIFICATIONS
@@ -60,4 +60,4 @@ In order to clone , follow the procedure below;
 ## License
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE Copyright (c) {2019} **{By Joseck Ogachi}**
 
-## live link to Heruko
+## Live link to Heruko
