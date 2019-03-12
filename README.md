@@ -1,41 +1,37 @@
 # Instagram
 
 #### By Joseck Ogachi
-
-Description
+## Description
 A clone of the website for the popular photo app Instagram. This application allows users to sign up then they can create a profile and upload images for other users to like and comment,and users can also follow each other to ensure that they get timely notifications.
-Setup/Installation Requirements
-installations required
-Install python version  3.6
-Install django==1.11.5
-Install Pipenv pip install --user pipenv
-Install virtual environment and activate it
+## Setup/Installation Requirements
+
+- Install python version3.6
+- Install django==1.11.5
+- Install Pipenv pip install --user pipenv
+- Install virtual environment and activate it
 
 In order to clone , follow the procedure below;
-On GitHub, navigate to the main page of the repository.
-Under the repository name, click Clone or download.
-Copy the link.
-Open Terminal.
-Change the current working directory to your preffered location.
-Type git clone, and then paste the URL you copied in the above step.
-git clone https://github.com/joseck12/picturegram.git Press Enter.
+- On GitHub, navigate to the main page of the repository.
+- Under the repository name, click Clone or download.
+- Copy the link.
+- Change the current working directory to your preffered location.
+- Type git clone, and then paste the URL you copied in the above step.
+- git clone https://github.com/joseck12/picturegram.git Press Enter.
 
-#creating a database
+## creating a database
 
-psql
-CREATE DATABASE picturegram;
-connect to the database \c picturegram;
-check if tables have been created \dt
-install dependancies -pip3 install -r requirements.txt
+- `psql`
+- `CREATE DATABASE picturegram`
+-  Connect to the database `\c picturegram`
+-  Check if tables have been created`\dt`
+-  Install dependancies`pip3 install -r requirements.txt`
 
-#Run migrations
+## Running migrations
+- `python3.6 manage.py makemigrations picturegram`
+- `python3.6 manage.py migrate`
 
-python3.6 manage.py migrate
-python3.6 manage.py makemigrations pictureapp
-
-#Running the app
-
-python3.6 manage.py runserver
+## Running the app
+- `python3.6 manage.py runserver`
 
 #testing
 
