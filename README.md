@@ -33,14 +33,14 @@ In order to clone , follow the procedure below;
 ## Running the app
 - `python3.6 manage.py runserver`
 
-#testing
+## testing
+- `python3.6 manage.py test picturegram`
 
-python3.6 manage.py test picturegram
-#SPECIFICATIONS | Behaviour | Input | Output |
-
+#SPECIFICATIONS
+| Behaviour | Input | Output |
 | Display Images| On the HomePage| User can view different Images| | Image expand | * On the Landing Page*| User can click on an image to view more details| | As an Admin Sign in| * On The Admin Dashboard*| Post images| | As A User | *On Profile Page| Edit Profile Page|
 
-Technologies Used
+## Technologies Used
 HTML
 CSS
 Python
@@ -53,9 +53,9 @@ jogachi4@gmail.com
 0726825457
 
 Known Bugs
-There are no know bugs,incase of any reach me on the above contact details.
+- There are no known bugs as yet,incase of any noticable bugs contact me on the above details.
 
 License
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE Copyright (c) {2018} {By Joseck Ogachi}
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE Copyright (c) {2019} **{By Joseck Ogachi}**
 
 ##live link to Heruko
