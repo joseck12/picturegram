@@ -1,8 +1,10 @@
 astroid==1.6.1
+config==0.4.0
 confusable-homoglyphs==3.0.0
-dj-database-url==0.4.2
+dj-database-url==0.5.0
 Django==1.11
 django-bootstrap3==9.1.0
+django-heroku==0.3.1
 django-like-button==0.0.7
 django-likes==1.11
 django-registration==2.4.1

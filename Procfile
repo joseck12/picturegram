@@ -1,1 +1,1 @@
-web: gunicorn picturegram.wsgi
+web: gunicorn picturegram.wsgi --log-file -
