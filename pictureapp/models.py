@@ -10,7 +10,7 @@ class Profile(models.Model):
     profile_photo = models.ImageField(upload_to="images/",null = True)
     bio = models.TextField(default='User does not have bio yet',blank=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE, null= True )
-    
+
     def __str__(self):
         return self.username
 
@@ -29,22 +29,22 @@ class Profile(models.Model):
 
 class Image(models.Model):
     image = models.ImageField(upload_to="images/",null = True )
-    image_name = models.CharField(max_length =30,null = True ) 
+    image_name = models.CharField(max_length =30,null = True )
     image_caption = models.TextField(null = True )
     pub_date = models.DateTimeField(auto_now_add=True, null= True)
     profile_key = models.ForeignKey(Profile,on_delete=models.CASCADE, null = True)
     user_key = models.ForeignKey(User,on_delete= models.CASCADE , null = True)
     likes = models.PositiveIntegerField(default=0)
     comments_number = models.PositiveIntegerField(default=0)
-        
+
     def __str__(self):
-        return self.image_name 
+        return self.image_name
 
     def save_image(self):
         self.save()
 
     def delete_image(self):
-        self.delete() 
+        self.delete()
 
     def update_caption(self,new_caption):
         self.image_caption = new_caption
@@ -69,7 +69,7 @@ class Image(models.Model):
     @classmethod
     def get_all_images(cls):
         all_posted_images = cls.objects.all()
-        return all_posted_images 
+        return all_posted_images
 
     @classmethod
     def get_user_page_posts(cls):
@@ -93,7 +93,7 @@ class Comment(models.Model):
         '''
         method that save a comment on an image
         '''
-        self.sa
+        self.save
     def delete_comment(self):
         '''
         methods that deletes a comment on an image
@@ -113,7 +113,7 @@ class Like(models.Model):
         return self.user.username
 
     def save_like(self):
-        self.save() 
+        self.save()
 
     def unlike(self):
         self.delete()
@@ -128,7 +128,7 @@ class Like(models.Model):
         Function that get likes belonging to a paticular posts
         '''
         likes = cls.objects.filter(image = image_id)
-        return likes 
+        return likes
 
 class Follow(models.Model):
     '''
@@ -136,10 +136,10 @@ class Follow(models.Model):
     '''
     follower = models.ForeignKey(User,on_delete=models.CASCADE, null= True)
     user = models.ForeignKey(Profile,on_delete=models.CASCADE, null= True)
-    
+
     def __int__(self):
-        return self.follower.username 
-    
+        return self.follower.username
+
     def save_follower(self):
         self.save()
 
@@ -148,6 +148,3 @@ class Follow(models.Model):
         profile = Profile.objects.filter(id = profile_id)
         followers = cls.objects.filter(user= profile.user.id)
         return len(followers)
-    
-
- 
